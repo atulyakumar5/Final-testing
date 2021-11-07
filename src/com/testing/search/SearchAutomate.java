@@ -24,8 +24,8 @@ public class SearchAutomate {
 		search.sendKeys("flipkart.com");
 		search.sendKeys(Keys.ENTER);
 		
-		Thread.sleep(100);
-		
+		Thread.sleep(10000);
+		Thread.sleep(5000);
 		driver.close();
 	}
 }
