@@ -25,7 +25,7 @@ public class SearchAutomate {
 		search.sendKeys(Keys.ENTER);
 		
 		Thread.sleep(10000);
-		
+		Thread.sleep(5000);
 		driver.close();
 	}
 }
